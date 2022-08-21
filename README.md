@@ -2,7 +2,7 @@
 
 ## Description
 
-Zookeepr is an online catalog that allows animal enthusiasts to access data from different locations and browsers without needing to download it to their device. This front-end application stores the data on a server using Express.js.
+Zookeepr is an online catalog for a zoo that allows animal enthusiasts to access data from different locations and browsers without needing to download it to their device. This front-end application stores the data on a server using Express.js.
 
 
 ## Table of Contents
@@ -14,7 +14,10 @@ Zookeepr is an online catalog that allows animal enthusiasts to access data from
 
 ## Installation
 
-- Set up and run a Node.js web server using Express.js. Reference the Express.js documentation for detailed instructions https://expressjs.com/en/4x/api.html.
+The program will run using the following tools:
+
+- Node.js: Visit https://nodejs.org/en/ for download details.
+- Express.js. Reference the Express.js documentation for detailed instructions https://expressjs.com/en/4x/api.html.
 
 	Install Express.js by entering the following commands in the terminal:
 
@@ -26,18 +29,10 @@ Zookeepr is an online catalog that allows animal enthusiasts to access data from
 
 			npm i express
 
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Fork the repository, access the terminal to set up the server using Express.js, then enter "npm start" on the terminal. Navigate to http://localhost:3001/ on your browser to access the application.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
@@ -49,6 +44,15 @@ MIT
 
 ## Tests
 
-- Jest
+Run test on the program using JEST. Refer to the documentation for more information https://jestjs.io/docs/getting-started.
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Before you run the tests, make sure that Jest is installed and added to package.json. 
+
+Enter the following command in the terminal to install:
+
+	npm install jest --save-dev
+
+Once the installation is complete, type "npm test" in the terminal to ultimate run the test.
+
+
+
